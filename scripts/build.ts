@@ -1,4 +1,4 @@
-#!/usr/bin/env -S pnpm tsx
+#!/usr/bin/env -S npx tsx
 import 'zx/globals';
 import cpy from 'cpy';
 
