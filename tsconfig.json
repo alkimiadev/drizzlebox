@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"isolatedModules": true,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"lib": ["es2020", "es2018", "es2017", "es7", "es6", "es5"],
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"skipLibCheck": true,
+		"noErrorTruncation": true,
+		"noEmit": true,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["src/*"]
+		}
+	},
+	"include": ["src", "*.ts"]
+}
